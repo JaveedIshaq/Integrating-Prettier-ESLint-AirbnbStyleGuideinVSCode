@@ -19,7 +19,7 @@ Before we begin, you will have to install npm and then npx.
 ``
  npm install -D eslint-config-prettier eslint-plugin-prettier
  
- ``
+``
  ## 5- Create .eslintrc.json file in your project’s root directory:
  
  ``
