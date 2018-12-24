@@ -9,10 +9,7 @@ Before we begin, you will have to install npm and then npx.
  
  ## 3- Install the Airbnb config. If you’re using npm 5+, you can run this shortcut to install the config and all of its dependencies: 
  
- ``
- npx install-peerdeps --dev eslint-config-airbnb
- 
- ``
+  ``npx install-peerdeps --dev eslint-config-airbnb``
  
  ## 4- Install eslint-config-prettier (disables formatting for ESLint) and eslint-plugin-prettier (allows ESLint to show formatting errors as we type) 
 
