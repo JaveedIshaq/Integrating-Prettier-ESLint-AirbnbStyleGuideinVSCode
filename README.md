@@ -13,32 +13,26 @@ Before we begin, you will have to install npm and then npx.
  
  ## 4- Install eslint-config-prettier (disables formatting for ESLint) and eslint-plugin-prettier (allows ESLint to show formatting errors as we type) 
 
-``
- npm install -D eslint-config-prettier eslint-plugin-prettier
- 
-``
+``npm install -D eslint-config-prettier eslint-plugin-prettier``
+
  ## 5- Create .eslintrc.json file in your project’s root directory:
  
- ``
- {
+ ``{
   "extends": ["airbnb", "prettier"],
   "plugins": ["prettier"],
   "rules": {
     "prettier/prettier": ["error"]
   },
 }
- 
  ``
 
 ## 6. Create .prettierrc file in your project’s root directory. This will be where you configure your formatting settings. I have added a few of my own preferences below, but I urge you to read more about the Prettier config file
 
-``
-{
+``{
   "printWidth": 100,
   "singleQuote": true
-}
+}``
 
-``
 ## 7. The last step is to make sure Prettier formats on save. Insert 
 
   ``"editor.formatOnSave": true ``
