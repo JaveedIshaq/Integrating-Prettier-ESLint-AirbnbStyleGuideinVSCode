@@ -8,13 +8,15 @@ Before we begin, you will have to install npm and then npx.
  ## 2- Install the ESLint and Prettier libraries into our project. In your project’s root directory, you will want to run: npm install -D eslint prettier
  
  ## 3- Install the Airbnb config. If you’re using npm 5+, you can run this shortcut to install the config and all of its dependencies: 
+ 
  ``
  npx install-peerdeps --dev eslint-config-airbnb
  
  ``
  
  ## 4- Install eslint-config-prettier (disables formatting for ESLint) and eslint-plugin-prettier (allows ESLint to show formatting errors as we type) 
- ``
+
+``
  npm install -D eslint-config-prettier eslint-plugin-prettier
  
  ``
@@ -32,11 +34,13 @@ Before we begin, you will have to install npm and then npx.
  ``
 
 ## 6. Create .prettierrc file in your project’s root directory. This will be where you configure your formatting settings. I have added a few of my own preferences below, but I urge you to read more about the Prettier config file
+
 ``
 {
   "printWidth": 100,
   "singleQuote": true
 }
+
 ``
 ## 7. The last step is to make sure Prettier formats on save. Insert 
 
